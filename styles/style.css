@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #541554;
+  height: 80px;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 8%;
+}
+.header .slack-logo {
+  height: 25px;
+  width: 100px;
+}
+.header .burger-menu {
+  height: 20px;
+  width: 18px;
+}
+
+.registro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #541554;
+  width: 100%;
+}
+.registro-text {
+  text-align: center;
+  color: white;
+  margin-inline: 4%;
+  margin-top: 15px;
+}
+.registro-text h1 {
+  font-size: 48px;
+  letter-spacing: -3px;
+  line-height: 1.1;
+}
+.registro-text .title {
+  color: #ecb22e;
+}
+.registro-text p {
+  padding-top: 8px;
+  padding-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+}
+.registro-text .btn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.registro-text .btn-normal {
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #611f69;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 19px 40px 20px;
+}
+.registro-text .btn-google {
+  border: none;
+  border-radius: 4px;
+  background-color: #4285f4;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 4px 16px 4px 4px;
+}
+.registro-media {
+  margin-top: 2rem;
+  max-height: 360px;
+  width: 100%;
+}
+.registro-media video {
+  width: 100%;
+}
+
+.appFunctions {
+  background-color: #F4EDE4;
+  padding-top: 3rem;
+}
+.appFunctions-clients {
+  width: 100%;
+  justify-content: center;
+}
+.appFunctions-clients p {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  margin-bottom: 16px;
+  padding-inline: 8%;
+  text-align: center;
+}
+.appFunctions-clients .clients-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding-inline: 4%;
+}
+.appFunctions-info {
+  padding-block: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.appFunctions-info #img-central {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.appFunctions-info .info-text {
+  padding-inline: 4%;
+  margin-top: 2rem;
+}
+.appFunctions-info .info-text h2 {
+  font-size: 32px;
+  letter-spacing: -1.3px;
+}
+.appFunctions-info .info-text p {
+  font-size: 18px;
+  line-height: 1.44;
+}
+.appFunctions-info .info-text h2, .appFunctions-info .info-text p {
+  margin-bottom: 16px;
+}
+.appFunctions-info .info-text a {
+  color: #1264a3;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.companies {
+  padding-block: 3rem;
+  padding-inline: 4%;
+}
+.companies-text {
+  text-align: center;
+}
+.companies-text h2 {
+  font-size: 32px;
+  letter-spacing: -1.3px;
+  margin: 32px 0px 16px;
+}
+.companies-text p {
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: -0.2px;
+}
+.companies .btn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 4rem;
+}
+.companies .btn-info {
+  border: none;
+  border-radius: 4px;
+  background-color: #611f69;
+  color: #fff;
+}
+.companies .btn-contact {
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #611f69;
+  box-shadow: inset 0 0 0 1px #611f69;
+}
+.companies .btn-info, .companies .btn-contact {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 19px 40px 20px;
+}
+.companies-stat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+.companies-stat div {
+  text-align: center;
+  margin-inline: 25%;
+}
+.companies-stat .num {
+  font-size: 48px;
+  color: #611f69;
+  font-weight: 700;
+  line-height: 1;
+}
+.companies-stat p {
+  font-size: 14px;
+}
+
+.opinion {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.opinion-video {
+  margin-bottom: 1rem;
+  width: 100%;
+  max-height: 600px;
+}
+.opinion-video .video-format {
+  -webkit-clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+          clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+  width: 97%;
+  height: 230px;
+}
+.opinion-text {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+.opinion-text-quote {
+  line-height: 1.4;
+  margin-block: 0 1rem;
+  font-size: 1.25rem;
+  letter-spacing: -0.5px;
+  font-style: italic;
+}
+.opinion-text-author {
+  font-weight: 700;
+}
+.opinion-text a {
+  width: 100%;
+  max-width: 330px;
+  padding-block: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #1264A3;
+}
+
+.additional-info {
+  margin: 0 auto;
+  text-align: center;
+  color: #696969;
+  font-size: 14px;
+  padding-inline: 4%;
+  padding-bottom: 20px;
+  line-height: 1.2;
+}
+
+.carrousel {
+  padding-block: 2rem;
+  background-color: #F4EDE4;
+}
+.carrousel-title {
+  margin: 0 auto;
+  padding-inline: 4%;
+}
+.carrousel-title h2 {
+  text-align: center;
+  margin-block: 1rem;
+  font-weight: 750;
+  line-height: 1.2;
+  letter-spacing: -1.2px;
+  font-size: 1.5rem;
+}
+.carrousel-card {
+  min-height: 420px;
+  margin: auto;
+  width: 285px;
+  background-color: #fff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+}
+.carrousel-card-img {
+  padding: 12px;
+}
+.carrousel-card-img, .carrousel-card-text, .carrousel-card-a {
+  padding-inline: 12px;
+}
+.carrousel-card-text p {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #454245;
+}
+.carrousel-card-text h3 {
+  margin: 8px 0 16px;
+  font-size: 1.4rem;
+  line-height: 30px;
+  font-weight: 700;
+}
+.carrousel-card-a {
+  margin-top: 40px;
+  padding-block: 20px;
+}
+.carrousel-card-a a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #1264a3;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.carrousel-icon {
+  width: 102px;
+  height: 20px;
+  margin: auto;
+  padding-top: 1.5rem;
+}
+
+.singup {
+  padding-block: 6rem;
+  background: #611f69;
+  -webkit-clip-path: ellipse(105% 100% at center top);
+          clip-path: ellipse(105% 100% at center top);
+}
+.singup-content {
+  padding: 0 4vw;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.singup-content h2 {
+  font-size: 2rem;
+  letter-spacing: -1.3px;
+  margin-bottom: 2rem;
+}
+.singup .btn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.singup .btn-prueba {
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #611f69;
+  box-shadow: inset 0 0 0 1px #611f69;
+}
+.singup .btn-ventas {
+  border: none;
+  border-radius: 4px;
+  background-color: #611f69;
+  color: #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+.singup .btn-prueba, .singup .btn-ventas {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 19px 40px 20px;
+}
+
+.more-info {
+  padding-top: 3.5rem;
+  padding-inline: 4%;
+  margin: 0 auto;
+}
+.more-info .infolist {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.more-info .infolist-ul {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.more-info .infolist-ul li {
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.legal-info {
+  margin-bottom: 1rem;
+  padding: 0 4%;
+  margin-inline: auto;
+}
+.legal-info .legal-list {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-top: 2px solid #ebeaeb;
+  padding-block: 1rem;
+}
+.legal-info .legal-list li {
+  padding-block: 16px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.legal-info .download-a {
+  color: #1264a3;
+  font-weight: 700;
+  font-size: 14px;
+  padding-block: 16px;
+}
+.legal-info .rrss-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.legal-info .rrss-list li {
+  display: flex;
+  padding-block: 16px;
+}
+.legal-info .copyright {
+  font-size: 12px;
+  color: #454245;
+  font-weight: 400;
+  line-height: 1.25rem;
+  padding-block: 16px;
+}/*# sourceMappingURL=style.css.map */

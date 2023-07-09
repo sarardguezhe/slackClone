@@ -1,0 +1,12 @@
+@mixin displayFlex(){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin buttonStyle($border,$radius,$background,$color){
+    border: $border;
+    border-radius: $radius;
+    background-color: $background;
+    color: $color;
+}
